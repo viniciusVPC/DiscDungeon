@@ -14,7 +14,7 @@ module.exports = {
   spawnMonster: async function (guild) {
     const preferences = await Preference.findOne({ guildId: guild.id });
     if (preferences) {
-      const objMonstro = objMonstroAleatorio();
+      const objMonstro = await objMonstroAleatorio(preferences.vidaLimite);
       const nome = objMonstro.nome;
 
       const vida = objMonstro.vida;

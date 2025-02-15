@@ -7,6 +7,9 @@ const preferencesSchema = new Schema({
   spamChannelId: {
     type: String,
   },
+  vidaLimite: {
+    type: Number,
+  },
 });
 
 module.exports = model("preference", preferencesSchema);

@@ -310,5 +310,109 @@
     "forca": 30,
     "defesa": 19,
     "vida": 142
+  },
+  {
+    "genero": true,
+    "nome": "Demônia Cambion",
+    "nomeImagem": "cambion",
+    "forca": 11,
+    "defesa": 19,
+    "vida": 82
+  },
+  {
+    "genero": false,
+    "nome": "Rastreador de Carniças",
+    "nomeImagem": "carrion-crawler",
+    "forca": 7,
+    "defesa": 13,
+    "vida": 51
+  },
+  {
+    "genero": false,
+    "nome": "Diabo das Correntes",
+    "nomeImagem": "chain-devil",
+    "forca": 11,
+    "defesa": 16,
+    "vida": 85
+  },
+  {
+    "genero": false,
+    "nome": "Chasme",
+    "nomeImagem": "demon-chasme",
+    "forca": 35,
+    "defesa": 15,
+    "vida": 84
+  },
+  {
+    "genero": true,
+    "nome": "Quimera",
+    "nomeImagem": "chimera",
+    "forca": 11,
+    "defesa": 14,
+    "vida": 114
+  },
+  {
+    "genero": false,
+    "nome": "Chuul",
+    "nomeImagem": "chuul",
+    "forca": 11,
+    "defesa": 16,
+    "vida": 93
+  },
+  {
+    "genero": false,
+    "nome": "Golem de Argila",
+    "nomeImagem": "clay-golem",
+    "forca": 16,
+    "defesa": 14,
+    "vida": 133
+  },
+  {
+    "genero": false,
+    "nome": "Manto Vivo",
+    "nomeImagem": "cloaker",
+    "forca": 10,
+    "defesa": 14,
+    "vida": 78
+  },
+  {
+    "genero": false,
+    "nome": "Gigante das nuvens",
+    "nomeImagem": "cloud-giant",
+    "forca": 30,
+    "defesa": 14,
+    "vida": 200
+  },
+  {
+    "genero": true,
+    "nome": "Cocatriz",
+    "nomeImagem": "cockatrice",
+    "forca": 5,
+    "defesa": 11,
+    "vida": 27
+  },
+  {
+    "genero": false,
+    "nome": "Couatl",
+    "nomeImagem": "couatl",
+    "forca": 10,
+    "defesa": 19,
+    "vida": 97
+  },
+  {
+    "genero": true,
+    "nome": "Garra Rastejante",
+    "nomeImagem": "crawling-claw",
+    "forca": 3,
+    "defesa": 12,
+    "vida": 2
+  },
+  {
+    "genero": false,
+    "nome": "Ciclope",
+    "nomeImagem": "cyclops",
+    "forca": 28,
+    "defesa": 14,
+    "vida": 138
   }
 ]

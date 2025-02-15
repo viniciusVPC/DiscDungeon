@@ -4,6 +4,7 @@ const Level = require("../models/Level");
 const calculateLevelXp = require("../utils/calculateLevelXp");
 const { spawnMonster } = require("../system/monsterControl");
 const cooldowns = new Set();
+const cooldownMonstro = new Set();
 
 module.exports = {
   name: Events.MessageCreate,
@@ -15,9 +16,18 @@ module.exports = {
   async execute(message) {
     if (!message.inGuild() || message.author.bot) return;
 
-    let chance = Math.random() * 1000;
-    if (chance <= 100) {
-      spawnMonster(message.guild);
+    let chance = Math.random() * 100;
+    if (chance <= 10) {
+      console.log("cooldown monstro: " + cooldownMonstro);
+      if (!cooldownMonstro.has(message.guildId)) {
+        spawnMonster(message.guild);
+        cooldownMonstro.add(message.guildId);
+
+        setTimeout(() => {
+          cooldownMonstro.delete(message.guildId);
+          console.log("cooldown monstro: " + cooldownMonstro);
+        }, 120000);
+      }
     }
 
     if (cooldowns.has(message.author.id)) return;
