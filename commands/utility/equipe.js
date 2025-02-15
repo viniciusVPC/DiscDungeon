@@ -249,50 +249,50 @@ async function subcomandoCriar(interaction) {
  */
 async function subcomandoExibir(interaction) {
   //procura a equipe do usuário.
-  try {
-    const equipeUsuario = await procuraEquipeDoUsuario(interaction);
-    if (equipeUsuario) {
-      //Encontrou equipe
-      console.log("Encontrei equipe e vou exibi-la" + equipeUsuario);
+  //try {
+  const equipeUsuario = await procuraEquipeDoUsuario(interaction);
+  if (equipeUsuario) {
+    //Encontrou equipe
+    console.log("Encontrei equipe e vou exibi-la" + equipeUsuario);
 
-      const integrantes = [];
-      equipeUsuario.componentIds.forEach((componente) => {
-        const usuario = interaction.guild.members.cache.get(componente);
-        integrantes.push(`\n ${usuario.user.username}`);
-      });
-      let embed = new EmbedBuilder();
+    const integrantes = [];
+    equipeUsuario.componentIds.forEach((componente) => {
+      const usuario = interaction.guild.members.cache.get(componente);
+      integrantes.push(`\n ${usuario.user.username}`);
+    });
+    let embed = new EmbedBuilder();
 
-      if (equipeUsuario.leaderId === interaction.user.id) {
-        console.log("É o líder quem usou o comando.");
-        embed = new EmbedBuilder()
-          .setTitle(`${equipeUsuario.name}`)
-          .setDescription(
-            `Integrantes da equipe: ${integrantes}
+    if (equipeUsuario.leaderId === interaction.user.id) {
+      console.log("É o líder quem usou o comando.");
+      embed = new EmbedBuilder()
+        .setTitle(`${equipeUsuario.name}`)
+        .setDescription(
+          `Integrantes da equipe: ${integrantes}
           \nPara mudar o nome da equipe, digite \`/equipe nome\`
           Se quiser apagar a equipe, digite \`/equipe deletar\``
-          )
-          .setColor("Green");
-      } else {
-        console.log("Não é o líder quem usou o comando.");
-        embed = new EmbedBuilder()
-          .setTitle(`${equipeUsuario.name}`)
-          .setDescription(
-            `Integrantes da equipe: ${integrantes}
-          \nSe quiser sair da equipe, digite \`/equipe sair\``
-          )
-          .setColor("Green");
-      }
-
-      await interaction.editReply({ embeds: [embed] });
+        )
+        .setColor("Green");
     } else {
-      await interaction.editReply(
-        "Você não está em nenhuma equipe no momento!\n\
-Use `/equipe criar` para criar uma equipe ou entre na equipe de alguém antes!"
-      );
+      console.log("Não é o líder quem usou o comando.");
+      embed = new EmbedBuilder()
+        .setTitle(`${equipeUsuario.name}`)
+        .setDescription(
+          `Integrantes da equipe: ${integrantes}
+          \nSe quiser sair da equipe, digite \`/equipe sair\``
+        )
+        .setColor("Green");
     }
-  } catch (error) {
-    console.error("Erro exibindo equipe: " + error);
+
+    await interaction.editReply({ embeds: [embed] });
+  } else {
+    await interaction.editReply(
+      "Você não está em nenhuma equipe no momento!\n\
+Use `/equipe criar` para criar uma equipe ou entre na equipe de alguém antes!"
+    );
   }
+  //} catch (error) {
+  //  console.error("Erro exibindo equipe: " + error);
+  //}
 }
 
 /**
