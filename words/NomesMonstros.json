@@ -11,7 +11,7 @@
     "genero": false,
     "nome": "Aboleth",
     "nomeImagem": "aboleth",
-    "forca": 15,
+    "forca": 36,
     "defesa": 17,
     "vida": 135
   },
@@ -19,7 +19,7 @@
     "genero": false,
     "nome": "Yeti Abominável",
     "nomeImagem": "yeti",
-    "forca": 21,
+    "forca": 49,
     "defesa": 15,
     "vida": 137
   },
@@ -27,7 +27,7 @@
     "genero": false,
     "nome": "Dragão Preto Adulto",
     "nomeImagem": "black-dragon",
-    "forca": 21,
+    "forca": 43,
     "defesa": 19,
     "vida": 195
   },
@@ -35,7 +35,7 @@
     "genero": false,
     "nome": "Dragão Azul Esquelético",
     "nomeImagem": "dracolich",
-    "forca": 23,
+    "forca": 46,
     "defesa": 19,
     "vida": 225
   },
@@ -43,7 +43,7 @@
     "genero": false,
     "nome": "Dragão Azul Adulto",
     "nomeImagem": "blue-dragon",
-    "forca": 23,
+    "forca": 46,
     "defesa": 19,
     "vida": 225
   },
@@ -51,7 +51,7 @@
     "genero": false,
     "nome": "Dragão de Latão Adulto",
     "nomeImagem": "brass-dragon",
-    "forca": 17,
+    "forca": 43,
     "defesa": 18,
     "vida": 172
   },
@@ -59,7 +59,7 @@
     "genero": false,
     "nome": "Dragão de Bronze Adulto",
     "nomeImagem": "bronze-dragon",
-    "forca": 18,
+    "forca": 46,
     "defesa": 19,
     "vida": 212
   },
@@ -67,7 +67,7 @@
     "genero": false,
     "nome": "Dragão de Cobre Adulto",
     "nomeImagem": "copper-dragon",
-    "forca": 17,
+    "forca": 43,
     "defesa": 18,
     "vida": 184
   },
@@ -75,7 +75,7 @@
     "genero": false,
     "nome": "Dragão de Ouro Adulto",
     "nomeImagem": "gold-dragon",
-    "forca": 19,
+    "forca": 49,
     "defesa": 19,
     "vida": 256
   },
@@ -83,7 +83,7 @@
     "genero": false,
     "nome": "Dragão Verde Adulto",
     "nomeImagem": "green-dragon",
-    "forca": 17,
+    "forca": 43,
     "defesa": 19,
     "vida": 207
   },
@@ -91,7 +91,7 @@
     "genero": false,
     "nome": "Dragão Vermelho Adulto",
     "nomeImagem": "red-dragon",
-    "forca": 19,
+    "forca": 49,
     "defesa": 19,
     "vida": 256
   },
@@ -99,7 +99,7 @@
     "genero": false,
     "nome": "Dragão de Prata Adulto",
     "nomeImagem": "silver-dragon",
-    "forca": 19,
+    "forca": 49,
     "defesa": 19,
     "vida": 243
   },
@@ -107,7 +107,7 @@
     "genero": false,
     "nome": "Dragão Branco Adulto",
     "nomeImagem": "white-dragon",
-    "forca": 17,
+    "forca": 43,
     "defesa": 18,
     "vida": 200
   },
@@ -115,7 +115,7 @@
     "genero": false,
     "nome": "Elemental do Ar",
     "nomeImagem": "air-elemental",
-    "forca": 14,
+    "forca": 28,
     "defesa": 15,
     "vida": 90
   },
@@ -123,7 +123,7 @@
     "genero": true,
     "nome": "Armadura fantasma",
     "nomeImagem": "animated-armor",
-    "forca": 5,
+    "forca": 10,
     "defesa": 18,
     "vida": 33
   },
@@ -147,7 +147,7 @@
     "genero": false,
     "nome": "Sr. Raposo",
     "nomeImagem": "arcanaloth",
-    "forca": 8,
+    "forca": 35,
     "defesa": 17,
     "vida": 104
   },
@@ -179,7 +179,7 @@
     "genero": false,
     "nome": "Demônio Balor",
     "nomeImagem": "demon-balor",
-    "forca": 34,
+    "forca": 46,
     "defesa": 19,
     "vida": 262
   },
@@ -195,7 +195,7 @@
     "genero": false,
     "nome": "Diabrete Farpado",
     "nomeImagem": "barbed-devil",
-    "forca": 10,
+    "forca": 22,
     "defesa": 15,
     "vida": 110
   },
@@ -203,7 +203,7 @@
     "genero": false,
     "nome": "Barlgura",
     "nomeImagem": "barlgura",
-    "forca": 11,
+    "forca": 29,
     "defesa": 15,
     "vida": 68
   },
@@ -219,7 +219,7 @@
     "genero": false,
     "nome": "Diabo Barbado",
     "nomeImagem": "bearded-devil",
-    "forca": 8,
+    "forca": 14,
     "defesa": 13,
     "vida": 53
   },
@@ -227,7 +227,7 @@
     "genero": false,
     "nome": "Behir",
     "nomeImagem": "behir",
-    "forca": 22,
+    "forca": 56,
     "defesa": 17,
     "vida": 168
   },
@@ -235,7 +235,7 @@
     "genero": false,
     "nome": "Beholder",
     "nomeImagem": "beholder",
-    "forca": 14,
+    "forca": 55,
     "defesa": 18,
     "vida": 180
   },
@@ -243,7 +243,7 @@
     "genero": false,
     "nome": "Beholder Zumbi",
     "nomeImagem": "beholder-zombie",
-    "forca": 14,
+    "forca": 55,
     "defesa": 15,
     "vida": 93
   },
@@ -259,17 +259,9 @@
     "genero": false,
     "nome": "Sapão Azul",
     "nomeImagem": "blue-slaad",
-    "forca": 12,
+    "forca": 36,
     "defesa": 15,
     "vida": 123
-  },
-  {
-    "genero": false,
-    "nome": "Diabo Ósseo",
-    "nomeImagem": "bone-devil",
-    "forca": 30,
-    "defesa": 19,
-    "vida": 142
   },
   {
     "genero": true,
@@ -299,7 +291,7 @@
     "genero": false,
     "nome": "Sapinho Guerreiro",
     "nomeImagem": "bullywug",
-    "forca": 5,
+    "forca": 8,
     "defesa": 15,
     "vida": 11
   },
@@ -307,7 +299,7 @@
     "genero": false,
     "nome": "Diabo Ósseo",
     "nomeImagem": "bone-devil",
-    "forca": 30,
+    "forca": 46,
     "defesa": 19,
     "vida": 142
   },
@@ -315,7 +307,7 @@
     "genero": true,
     "nome": "Demônia Cambion",
     "nomeImagem": "cambion",
-    "forca": 11,
+    "forca": 22,
     "defesa": 19,
     "vida": 82
   },
@@ -323,7 +315,7 @@
     "genero": false,
     "nome": "Rastreador de Carniças",
     "nomeImagem": "carrion-crawler",
-    "forca": 7,
+    "forca": 11,
     "defesa": 13,
     "vida": 51
   },
@@ -331,7 +323,7 @@
     "genero": false,
     "nome": "Diabo das Correntes",
     "nomeImagem": "chain-devil",
-    "forca": 11,
+    "forca": 22,
     "defesa": 16,
     "vida": 85
   },
@@ -347,7 +339,7 @@
     "genero": true,
     "nome": "Quimera",
     "nomeImagem": "chimera",
-    "forca": 11,
+    "forca": 32,
     "defesa": 14,
     "vida": 114
   },
@@ -355,7 +347,7 @@
     "genero": false,
     "nome": "Chuul",
     "nomeImagem": "chuul",
-    "forca": 11,
+    "forca": 22,
     "defesa": 16,
     "vida": 93
   },
@@ -363,15 +355,15 @@
     "genero": false,
     "nome": "Golem de Argila",
     "nomeImagem": "clay-golem",
-    "forca": 16,
+    "forca": 32,
     "defesa": 14,
     "vida": 133
   },
   {
-    "genero": false,
-    "nome": "Manto Vivo",
+    "genero": true,
+    "nome": "Manta",
     "nomeImagem": "cloaker",
-    "forca": 10,
+    "forca": 17,
     "defesa": 14,
     "vida": 78
   },
@@ -379,7 +371,7 @@
     "genero": false,
     "nome": "Gigante das nuvens",
     "nomeImagem": "cloud-giant",
-    "forca": 30,
+    "forca": 42,
     "defesa": 14,
     "vida": 200
   },
@@ -409,10 +401,82 @@
   },
   {
     "genero": false,
+    "nome": "Dao",
+    "nomeImagem": "dao",
+    "forca": 40,
+    "defesa": 18,
+    "vida": 187
+  },
+  {
+    "genero": false,
+    "nome": "Manto Negro",
+    "nomeImagem": "darkmantle",
+    "forca": 6,
+    "defesa": 11,
+    "vida": 22
+  },
+  {
+    "genero": false,
+    "nome": "Cão da Morte",
+    "nomeImagem": "death-dog",
+    "forca": 10,
+    "defesa": 12,
+    "vida": 39
+  },
+  {
+    "genero": false,
+    "nome": "Cavaleiro da Morte",
+    "nomeImagem": "death-knight",
+    "forca": 84,
+    "defesa": 20,
+    "vida": 180
+  },
+  {
+    "genero": false,
+    "nome": "Sapão da Morte",
+    "nomeImagem": "death-slaad",
+    "forca": 54,
+    "defesa": 18,
+    "vida": 170
+  },
+  {
+    "genero": false,
     "nome": "Ciclope",
     "nomeImagem": "cyclops",
-    "forca": 28,
+    "forca": 38,
     "defesa": 14,
     "vida": 138
+  },
+  {
+    "genero": false,
+    "nome": "Demilich",
+    "nomeImagem": "demilich",
+    "forca": 21,
+    "defesa": 20,
+    "vida": 80
+  },
+  {
+    "genero": false,
+    "nome": "Lobo Selvagem",
+    "nomeImagem": "dire-wolf",
+    "forca": 10,
+    "defesa": 14,
+    "vida": 37
+  },
+  {
+    "genero": true,
+    "nome": "Pantera Deslocadora",
+    "nomeImagem": "displacer-beast",
+    "forca": 20,
+    "defesa": 13,
+    "vida": 85
+  },
+  {
+    "genero": false,
+    "nome": "Gênio da Lâmpada",
+    "nomeImagem": "djinni",
+    "forca": 45,
+    "defesa": 17,
+    "vida": 161
   }
 ]
