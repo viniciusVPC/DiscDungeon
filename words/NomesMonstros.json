@@ -1,0 +1,314 @@
+[
+  {
+    "genero": false,
+    "nome": "Aarakocra",
+    "nomeImagem": "aarakocra",
+    "forca": 5,
+    "defesa": 12,
+    "vida": 13
+  },
+  {
+    "genero": false,
+    "nome": "Aboleth",
+    "nomeImagem": "aboleth",
+    "forca": 15,
+    "defesa": 17,
+    "vida": 135
+  },
+  {
+    "genero": false,
+    "nome": "Yeti Abominável",
+    "nomeImagem": "yeti",
+    "forca": 21,
+    "defesa": 15,
+    "vida": 137
+  },
+  {
+    "genero": false,
+    "nome": "Dragão Preto Adulto",
+    "nomeImagem": "black-dragon",
+    "forca": 21,
+    "defesa": 19,
+    "vida": 195
+  },
+  {
+    "genero": false,
+    "nome": "Dragão Azul Esquelético",
+    "nomeImagem": "dracolich",
+    "forca": 23,
+    "defesa": 19,
+    "vida": 225
+  },
+  {
+    "genero": false,
+    "nome": "Dragão Azul Adulto",
+    "nomeImagem": "blue-dragon",
+    "forca": 23,
+    "defesa": 19,
+    "vida": 225
+  },
+  {
+    "genero": false,
+    "nome": "Dragão de Latão Adulto",
+    "nomeImagem": "brass-dragon",
+    "forca": 17,
+    "defesa": 18,
+    "vida": 172
+  },
+  {
+    "genero": false,
+    "nome": "Dragão de Bronze Adulto",
+    "nomeImagem": "bronze-dragon",
+    "forca": 18,
+    "defesa": 19,
+    "vida": 212
+  },
+  {
+    "genero": false,
+    "nome": "Dragão de Cobre Adulto",
+    "nomeImagem": "copper-dragon",
+    "forca": 17,
+    "defesa": 18,
+    "vida": 184
+  },
+  {
+    "genero": false,
+    "nome": "Dragão de Ouro Adulto",
+    "nomeImagem": "gold-dragon",
+    "forca": 19,
+    "defesa": 19,
+    "vida": 256
+  },
+  {
+    "genero": false,
+    "nome": "Dragão Verde Adulto",
+    "nomeImagem": "green-dragon",
+    "forca": 17,
+    "defesa": 19,
+    "vida": 207
+  },
+  {
+    "genero": false,
+    "nome": "Dragão Vermelho Adulto",
+    "nomeImagem": "red-dragon",
+    "forca": 19,
+    "defesa": 19,
+    "vida": 256
+  },
+  {
+    "genero": false,
+    "nome": "Dragão de Prata Adulto",
+    "nomeImagem": "silver-dragon",
+    "forca": 19,
+    "defesa": 19,
+    "vida": 243
+  },
+  {
+    "genero": false,
+    "nome": "Dragão Branco Adulto",
+    "nomeImagem": "white-dragon",
+    "forca": 17,
+    "defesa": 18,
+    "vida": 200
+  },
+  {
+    "genero": false,
+    "nome": "Elemental do Ar",
+    "nomeImagem": "air-elemental",
+    "forca": 14,
+    "defesa": 15,
+    "vida": 90
+  },
+  {
+    "genero": true,
+    "nome": "Armadura fantasma",
+    "nomeImagem": "animated-armor",
+    "forca": 5,
+    "defesa": 18,
+    "vida": 33
+  },
+  {
+    "genero": false,
+    "nome": "Ankheg",
+    "nomeImagem": "ankheg",
+    "forca": 13,
+    "defesa": 14,
+    "vida": 39
+  },
+  {
+    "genero": false,
+    "nome": "Anquilossauro",
+    "nomeImagem": "ankylosaurus",
+    "forca": 18,
+    "defesa": 15,
+    "vida": 68
+  },
+  {
+    "genero": false,
+    "nome": "Sr. Raposo",
+    "nomeImagem": "arcanaloth",
+    "forca": 8,
+    "defesa": 17,
+    "vida": 104
+  },
+  {
+    "genero": true,
+    "nome": "Ave Pré Histórica",
+    "nomeImagem": "axe-beak",
+    "forca": 6,
+    "defesa": 11,
+    "vida": 19
+  },
+  {
+    "genero": false,
+    "nome": "Azer",
+    "nomeImagem": "azer",
+    "forca": 11,
+    "defesa": 17,
+    "vida": 39
+  },
+  {
+    "genero": false,
+    "nome": "Texugo",
+    "nomeImagem": "badger",
+    "forca": 1,
+    "defesa": 10,
+    "vida": 3
+  },
+  {
+    "genero": false,
+    "nome": "Demônio Balor",
+    "nomeImagem": "demon-balor",
+    "forca": 34,
+    "defesa": 19,
+    "vida": 262
+  },
+  {
+    "genero": true,
+    "nome": "Banshee",
+    "nomeImagem": "banshee",
+    "forca": 12,
+    "defesa": 12,
+    "vida": 58
+  },
+  {
+    "genero": false,
+    "nome": "Diabrete Farpado",
+    "nomeImagem": "barbed-devil",
+    "forca": 10,
+    "defesa": 15,
+    "vida": 110
+  },
+  {
+    "genero": false,
+    "nome": "Barlgura",
+    "nomeImagem": "barlgura",
+    "forca": 11,
+    "defesa": 15,
+    "vida": 68
+  },
+  {
+    "genero": false,
+    "nome": "Basilisco",
+    "nomeImagem": "basilisk",
+    "forca": 17,
+    "defesa": 15,
+    "vida": 52
+  },
+  {
+    "genero": false,
+    "nome": "Diabo Barbado",
+    "nomeImagem": "bearded-devil",
+    "forca": 8,
+    "defesa": 13,
+    "vida": 53
+  },
+  {
+    "genero": false,
+    "nome": "Behir",
+    "nomeImagem": "behir",
+    "forca": 22,
+    "defesa": 17,
+    "vida": 168
+  },
+  {
+    "genero": false,
+    "nome": "Beholder",
+    "nomeImagem": "beholder",
+    "forca": 14,
+    "defesa": 18,
+    "vida": 180
+  },
+  {
+    "genero": false,
+    "nome": "Beholder Zumbi",
+    "nomeImagem": "beholder-zombie",
+    "forca": 14,
+    "defesa": 15,
+    "vida": 93
+  },
+  {
+    "genero": false,
+    "nome": "Cão Teletransportador",
+    "nomeImagem": "blink-dog",
+    "forca": 4,
+    "defesa": 13,
+    "vida": 22
+  },
+  {
+    "genero": false,
+    "nome": "Sapão Azul",
+    "nomeImagem": "blue-slaad",
+    "forca": 12,
+    "defesa": 15,
+    "vida": 123
+  },
+  {
+    "genero": false,
+    "nome": "Diabo Ósseo",
+    "nomeImagem": "bone-devil",
+    "forca": 30,
+    "defesa": 19,
+    "vida": 142
+  },
+  {
+    "genero": true,
+    "nome": "Naja Esquelética",
+    "nomeImagem": "bone-naga",
+    "forca": 20,
+    "defesa": 15,
+    "vida": 58
+  },
+  {
+    "genero": false,
+    "nome": "Bugbear",
+    "nomeImagem": "bugbear",
+    "forca": 14,
+    "defesa": 16,
+    "vida": 27
+  },
+  {
+    "genero": false,
+    "nome": "Bulette",
+    "nomeImagem": "bulette",
+    "forca": 30,
+    "defesa": 17,
+    "vida": 94
+  },
+  {
+    "genero": false,
+    "nome": "Sapinho Guerreiro",
+    "nomeImagem": "bullywug",
+    "forca": 5,
+    "defesa": 15,
+    "vida": 11
+  },
+  {
+    "genero": false,
+    "nome": "Diabo Ósseo",
+    "nomeImagem": "bone-devil",
+    "forca": 30,
+    "defesa": 19,
+    "vida": 142
+  }
+]

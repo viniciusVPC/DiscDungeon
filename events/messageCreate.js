@@ -15,8 +15,8 @@ module.exports = {
   async execute(message) {
     if (!message.inGuild() || message.author.bot) return;
 
-    let chance = Math.random() * 100;
-    if (chance <= 10) {
+    let chance = Math.random() * 1000;
+    if (chance <= 100) {
       spawnMonster(message.guild);
     }
 
